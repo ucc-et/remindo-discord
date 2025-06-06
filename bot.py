@@ -1,10 +1,8 @@
 # bot.py
 import os
-
 import discord
 from discord.ext import commands, tasks
 import asyncio
-import os
 
 TOKEN = os.getenv("BOT_TOKEN")
 
